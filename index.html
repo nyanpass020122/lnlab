@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="東方Projectの同人ゲームを制作するサークル、「月餅研究所 ~Luna Labo~」の公式ホームページです！">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link rel="stylesheet" type="text/css" href="/script/swiper/slide.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <title>月餅研究所  ~Luna Labo~　公式HP</title>
+  <style>h1,h2,a,p {text-align: center;}</style>
+  <script src="/script/swiper/slide.js"></script>
+  <script src="https://sdk.push7.jp/v2/p7sdk.js"></script>
+  <script>
+  p7.init("072a3abe42d7411b91099a44a61d44da",
+  {mode:"native",subscribe:"auto"});
+  </script>
+  <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?inF40kLCQ6w%3D&fadein=10" charset="utf-8"></script>
+</head>
+<body>
+  <header><h1><a href="/"><img title="月餅研究所" alt="月餅研究所" src="/images/logo1.png"></a></h1></header>
+  <nav><ul>
+    <li><p><a href="/index.html">TOP</a></p></li>
+    <li><p><a href="/about/">About</a></p></li>
+    <li><p><a href="/download/">Download</a></p></li>
+    <li><p><a href="/contact/">Contact</a></p></li>
+  </ul>
+  </nav>
+
+  <div id="content">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide img-a"><p></p></div>
+        <div class="swiper-slide img-b"><p></p></div>
+        <div class="swiper-slide img-c"><p></p></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="container">
+      <div class="left">
+        <h2>月餅研究所公式HPへようこそ！</h2>
+        <p>このサークルについては、<a href="/about/">About</a>を、</p>
+        <p>連絡先については、<a href="/contact/">Contact</a>をご覧ください！</p>
+      </div>
+      <div class="right">
+        <div class="info">
+          <h3>更新情報</h3>
+          <iframe src="/info.html" frameborder="0"></iframe>
+        </div>
+        <p>
+          <h3>イベントカレンダー</h3>
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;hl=ja&amp;bgcolor=%23FFFFFF&amp;src=t5ict0occn9n34eoa1ion6etj4%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Asia%2FTokyo" style="border-width:0" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;hl=ja&amp;bgcolor=%23FFFFFF&amp;src=t5ict0occn9n34eoa1ion6etj4%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Asia%2FTokyo" style="border-width:0" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+  var swiper = new Swiper('.swiper-container',{
+    autoplayDisableOnInteraction:false,
+    speed:800,
+    autoplay: 2000,
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev'
+  });
+  </script>
+ </body>
+</html>

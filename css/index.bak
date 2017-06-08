@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "TBカリグラゴシック R";
+}
+
+li a,nav a {
+  font-family: 'Playfair Display', serif;
+}
+
+@media screen and (min-width:800px) {
+header {
+  float: left;
+}
+
+header img {
+  width: 100px;
+  margin-left: 100px;
+}
+
+nav {
+  width: 500px;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+nav p {
+  width: 120px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  line-height: 70px;
+  font-size: 20pt;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: #ccc;
+}
+
+nav p:before {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 2px;
+  background: #00ced1;
+  transition: 0.5s;
+}
+
+nav p:hover:before{
+  width: 100%;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  font-family: 'Playfair Display', serif;
+}
+
+.swiper-container {
+    clear: both;
+}
+
+.swiper-container p {
+  height: 500px;
+  vertical-align: bottom;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #bbb;
+  background-position: center;
+  width: 100%;
+}
+
+.img-a {
+  background-image: url('/images/top1.png');
+}
+
+.img-b {
+  background-image: url('/images/top2.png');
+}
+
+.img-c {
+  background-image: url('/images/top3.png');
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  width: 300px;
+  margin-left: auto;
+}
+
+iframe {
+  width: 300px;
+  height: 300px;
+}
+}

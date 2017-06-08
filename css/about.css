@@ -1,0 +1,58 @@
+.members {
+  margin-top: 20px;
+}
+
+.leader {
+  margin-top: 5px;
+}
+
+.l img{
+  float: left;
+}
+
+.r img {
+  float: right;
+}
+
+.r h3 {
+  text-align: right;
+}
+
+
+div {
+  clear: both;
+}
+
+img {
+  width: 150px;
+}
+
+.members h2,.circle h1 {
+  border-bottom: #bbb solid 1px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+.l ,.r {
+  border-bottom: 1px #777 dotted;
+}
+.nyanpass {
+  opacity: 0.5;
+}
+
+@media screen and (min-width:800px) {
+  .members {
+    margin-left: 70px;
+    padding-left: 30px;
+    border-left: 4px #777 double;
+    height: 1280px;
+  }
+  .members div {
+    width: 50em;
+  }
+  .r {
+    margin-left: 200px;
+  }
+}
